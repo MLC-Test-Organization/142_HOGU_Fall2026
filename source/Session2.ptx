@@ -194,7 +194,7 @@
     </exercise>
     </page>
     <page>
-    <exercise workspace="1 in" number="3">
+    <exercise number="3">
       <statement><!-- #3 -->
         <p> 
         Below is an outline of the Definition of Continuity at a Point.
@@ -220,37 +220,204 @@
       </statement>
     </exercise> 
     
-    <exercise workspace="1 in" number="5">
+    <exercise  number="5">
       <statement><!-- #5 -->
         <p>
-
+          Use the graph of <m>f(x)</m> to determine if <m>f(x)</m> is continuous at <m>x=-2</m>.
+          <image source="MATH142_HOGU_Session2_Fig1.png" width="50%"/>
+          <ol>
+            <li workspace="1 in">
+              <p>
+                Is <m>\D f(-2)</m> defined? If so, find the value.
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Does <m>\D{\lim_{x\rightarrow -2} f(x)}</m> exist? If so, find the value.
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Does <m>\displaystyle{\lim_{x \rightarrow -2} f(x) =f(-2)}</m>?
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Is <m>f(x)</m> is continuous at <m>x=-2</m>? If not, at what condition (I, II, or III) does it fail first?              
+              </p>
+            </li>
+          </ol>
         </p>
       </statement>
     </exercise> 
     </page>
     <page>
-    <exercise workspace="1 in" number="6">
+    <exercise number="6">
       <statement><!-- #6 -->
         <p> 
-
+          Use the graph of <m>f(x)</m> to determine if <m>f(x)</m> is continuous at <m>x=-2</m>.
+          <image source="MATH142_HOGU_Session2_Fig2.png" width="50%"/>
+          <ol>
+            <li workspace="1 in">
+              <p>
+                Is <m>\D f(-2)</m> defined? If so, find the value.
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Does <m>\D{\lim_{x\rightarrow -2} f(x)}</m> exist? If so, find the value.
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Does <m>\displaystyle{\lim_{x \rightarrow -2} f(x) =f(-2)}</m>?
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Is <m>f(x)</m> is continuous at <m>x=-2</m>? If not, at what condition (I, II, or III) does it fail first? 
+              </p>
+            </li>
+          </ol>
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="1 in" number="7">
+    <exercise number="7">
       <statement><!-- #7 -->
         <p> 
-            
+          Use the graph of <m>h(x)</m> to determine if <m>h(x)</m> is continuous at <m>x=-2</m>.
+          <image source="MATH142_HOGU_Session2_Fig3.png" width="50%"/>
+          <ol>
+            <li workspace="1 in">
+              <p>
+                Is <m>\D h(-2)</m> defined? If so, find the value.
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Does <m>\D{\lim_{x\rightarrow -2} h(x)}</m> exist? If so, find the value.
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Does <m>\displaystyle{\lim_{x \rightarrow -2} h(x) =h(-2)}</m>?
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Is <m>h(x)</m> is continuous at <m>x=-2</m>? If not, at what condition (I, II, or III) does it fail first? 
+              </p>
+            </li>
+          </ol>  
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="1 in" number="8">
+    </page>
+    <page>
+    <exercise number="8">
       <statement><!-- #8 -->
         <p> 
-
+          Use the graph of <m>p(x)</m> to determine if <m>p(x)</m> is continuous at <m>x=3</m>.
+          <image source="MATH142_HOGU_Session2_Fig4.png" width="50%"/>
+          <ol>
+            <li workspace="1 in">
+              <p>
+                Is <m>\D p(3)</m> defined? If so, find the value.
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Does <m>\D{\lim_{x\rightarrow 3} p(x)}</m> exist? If so, find the value.
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Does <m>\displaystyle{\lim_{x \rightarrow 3} p(x) =p(3)}</m>?
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Is <m>p(x)</m> is continuous at <m>x=3</m>? If not, at what condition (I, II, or III) does it fail first? 
+              </p>
+            </li>
+          </ol>
         </p>
       </statement>
     </exercise> 
-</page>
+    <exercise number="9">
+      <statement><!-- #9 -->
+        <p> 
+          Use the graph of <m>t(x)</m> to determine if <m>t(x)</m> is continuous at <m>x=-4</m>.
+          <image source="MATH142_HOGU_Session2_Fig5.png" width="50%"/>
+          <ol>
+            <li workspace="1 in">
+              <p>
+                Is <m>\D t(-4)</m> defined? If so, find the value.
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Does <m>\D{\lim_{x\rightarrow -4} t(x)}</m> exist? If so, find the value.
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Does <m>\displaystyle{\lim_{x \rightarrow -4} t(x) =t(-4)}</m>?
+              </p>
+            </li>
+            <li workspace="1 in">
+              <p>
+                Is <m>t(x)</m> is continuous at <m>x=-4</m>? If not, at what condition (I, II, or III) does it fail first? 
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise> 
+  </page>
+  <page>
+    <exercise number="10">
+      <statement><!-- #10 -->
+        <p> 
+          Determine the intervals of continuity for each function below.
+          <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa">Page 126 of your textbook</url> 
+          has a list of domain restrictions that will help find the intervals of continuity for functions in symbolic form.
+          <ol>
+            <li workspace="1 in">
+              <p>
+                <m>\D f(x)=\sqrt{5x-7}</m>
+              </p>
+            </li>
+
+            <li workspace="1 in">
+              <p>
+                <m>\D g(x)=\frac{(x+2)(x-3)}{(x+4)(x+2)}</m>
+              </p>
+            </li>
+
+              <li workspace="1 in">
+                <p>
+                  <m>\D h(x)=\log_{3}(8+2x)</m>
+                </p>
+              </li>
+
+              <li workspace="1 in">
+                <p>
+                  <m>\D p(x)=5x^{4}+10x^{3}-15x^{2}</m>
+                </p>
+              </li>
+
+              <li workspace="1 in">
+                <p>
+                  Given <m>\displaystyle f(x)= \begin{cases}5^{3x+6}&#x26;x \leq -2\\ \\ \displaystyle \frac{x^2-x}{x^2+x}&#x26;x>-2 \\\end{cases}</m>
+                </p>
+              </li>
+            </ol>
+        </p>
+      </statement>
+    </exercise> 
+  </page>
+  <page>
     <paragraphs>
         <title>Now Grades Go Up</title>
       </paragraphs>
@@ -275,6 +442,7 @@
     </p>
   </statement>
  </exercise>
+</page>
 
 </worksheet>
 
