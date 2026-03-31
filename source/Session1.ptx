@@ -32,6 +32,11 @@
         <p>
           Explain the meaning of <m>\displaystyle\lim_{x \to 3} f(x) = -2</m>.
         </p>
+        <hint>
+          <p>
+            This is a hint.
+          </p>
+        </hint>
       </statement>
       </exercise>
       <exercise workspace="1 in">
@@ -73,7 +78,9 @@
       <statement><!-- #1 -->
         <p>Complete the graph below so <m>f(x)</m> has the domain <m>[-8,7]</m>, <m>\displaystyle\lim_{x \rightarrow -4} f(x)=-2</m>, 
           and <m>\displaystyle\lim_{x \rightarrow 5^-} f(x)=9</m>. 
-        <image source="M142_HOGU_session1_fig1.png" width="70%"/>
+        <image source="M142_HOGU_session1_fig1.png" width="70%">
+          <shortdescription>This is some alt text.</shortdescription>
+        </image>
         </p>
       </statement>
     </exercise> 
