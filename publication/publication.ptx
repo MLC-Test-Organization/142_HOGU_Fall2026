@@ -24,7 +24,7 @@
         <divisions level="0"/>
     </numbering>
     <html>
-        <css theme="salem" color-main="#500000"/>
+        <css theme="salem" provide-dark-mode="no" color-main="#500000"/>
     </html>
     <latex>
         <insertions pagebreaks="break-here"/>
