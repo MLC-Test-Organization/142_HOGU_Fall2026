@@ -8,7 +8,7 @@
     <target name="web1" source="Session1.ptx" format="html" deploy-dir="web1" />
     <target name="web2" source="Session2.ptx" format="html" deploy-dir="web2" />
     <target name="web3" source="Session3.ptx" format="html" deploy-dir="web3" />
-    <target name="print" format="pdf" />
+    <target name="print" source="Session1.ptx" format="pdf" />
   </targets>
 </project>
 
