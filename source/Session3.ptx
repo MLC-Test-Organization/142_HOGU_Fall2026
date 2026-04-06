@@ -44,7 +44,12 @@
          Draw the line that represents this average rate of change on the graph. 
         </p>
         <image source="MATH142_HOGU_Session3_Fig2.png" width="70%">
-          <shortdescription>This is some alt text.</shortdescription>
+          <shortdescription>Graph of a function with points (2,14) and (3, 24).</shortdescription>
+          <description>
+            <p>
+              Graph of a parabola f(x) plotted on the coordinate axes. The points (2, 14) and (3, 24) are labeled on the graph.
+            </p>
+          </description>
         </image>
       </statement>
     </exercise>
@@ -194,7 +199,12 @@
       Use the graph of <m>p(x)</m> below to answer questions #6-7.
     </p>
     <image source="MATH142_HOGU_Session3_Fig6.png" width="70%">
-          <shortdescription>This is some alt text.</shortdescription>
+          <shortdescription> Graph of a function p(x).</shortdescription>
+          <description>
+            <p>
+              Graph of a piecewise function p(x) plotted on coordinate axes.
+            </p>
+          </description>
     </image>
     <exercise workspace="1 in" number="6">
       <statement><!-- #6 -->
