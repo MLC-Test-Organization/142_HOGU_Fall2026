@@ -224,7 +224,12 @@
       <statement><!-- #5 -->
         <p>
           Use the graph of <m>f(x)</m> to determine if <m>f(x)</m> is continuous at <m>x=-2</m>.
-          <image source="MATH142_HOGU_Session2_Fig1.png" width="50%"/>
+          <image source="MATH142_HOGU_Session2_Fig1.png" width="50%">
+            <shortdescription> Graph of a function.</shortdescription>
+            <description>
+              <p>Graph of a function f(x) plotted on the coordinate axes. The graph has a closed circle at (-2,1) and an open circle at (-2,-4).</p>
+            </description>
+          </image>
           <ol>
             <li workspace="1 in">
               <p>
@@ -256,7 +261,12 @@
       <statement><!-- #6 -->
         <p> 
           Use the graph of <m>f(x)</m> to determine if <m>f(x)</m> is continuous at <m>x=-2</m>.
-          <image source="MATH142_HOGU_Session2_Fig2.png" width="50%"/>
+          <image source="MATH142_HOGU_Session2_Fig2.png" width="50%">
+          <shortdescription> Graph of a function.</shortdescription>
+            <description>
+              <p>Graph of a function f(x) plotted on the coordinate axes. The graph has an open circle at (-2,1).</p>
+            </description>
+          </image>
           <ol>
             <li workspace="1 in">
               <p>
@@ -286,7 +296,12 @@
       <statement><!-- #7 -->
         <p> 
           Use the graph of <m>h(x)</m> to determine if <m>h(x)</m> is continuous at <m>x=-2</m>.
-          <image source="MATH142_HOGU_Session2_Fig3.png" width="50%"/>
+          <image source="MATH142_HOGU_Session2_Fig3.png" width="50%">
+          <shortdescription> Graph of a function.</shortdescription>
+            <description>
+              <p>Graph of a function h(x) plotted on the coordinate axes. The graph has a closed circle at (-2,6) and an open circle at (-2,1).</p>
+            </description>
+          </image>
           <ol>
             <li workspace="1 in">
               <p>
@@ -318,7 +333,12 @@
       <statement><!-- #8 -->
         <p> 
           Use the graph of <m>p(x)</m> to determine if <m>p(x)</m> is continuous at <m>x=3</m>.
-          <image source="MATH142_HOGU_Session2_Fig4.png" width="50%"/>
+          <image source="MATH142_HOGU_Session2_Fig4.png" width="50%">
+          <shortdescription> Graph of a function.</shortdescription>
+            <description>
+              <p>Graph of a function p(x) plotted on the coordinate axes. The graph has at x=3.</p>
+            </description>
+          </image>
           <ol>
             <li workspace="1 in">
               <p>
@@ -348,7 +368,12 @@
       <statement><!-- #9 -->
         <p> 
           Use the graph of <m>t(x)</m> to determine if <m>t(x)</m> is continuous at <m>x=-4</m>.
-          <image source="MATH142_HOGU_Session2_Fig5.png" width="50%"/>
+          <image source="MATH142_HOGU_Session2_Fig5.png" width="50%">
+          <shortdescription> Graph of a function.</shortdescription>
+            <description>
+              <p>Graph of a function t(x) plotted on the coordinate axes. The graph has a vertex at x=-4.</p>
+            </description>
+          </image>
           <ol>
             <li workspace="1 in">
               <p>
