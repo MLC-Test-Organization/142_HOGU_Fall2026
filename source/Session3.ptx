@@ -23,11 +23,11 @@
       For additional practice problems and explanations, refer to the Math 142 textbook which is free and can be downloaded as a PDF 
       at <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa"> Texas A&amp;M The OAKTrust Digital Repository </url>.
     </p>
-    <page>
+    
       <paragraphs>
         <title>Getting Warmed Up and in the Right Mindset</title>
       </paragraphs>
-    <exercise workspace="5in">
+    <exercise workspace="0.4in">
       <statement><!-- #1 -->
         <p>
           State the formula for finding the average rate of change of a function <m>f</m> on the interval <m>[a,b]</m>.
@@ -37,13 +37,13 @@
         </p>
       </statement>
       </exercise>
-      <exercise workspace="1in">
+      <exercise workspace="0.5in">
       <statement><!-- #2 -->
         <p>
          Find the average rate of change of <m>\displaystyle f(x)=x^{2}+5x</m> on the interval <m>\displaystyle [2,3]</m>.
          Draw the line that represents this average rate of change on the graph. 
         </p>
-        <image source="MATH142_HOGU_Session3_Fig2.png" width="70%">
+        <image source="MATH142_HOGU_Session3_Fig2.png" width="50%">
           <shortdescription>Graph of a function plotted on the coordinate axes. Refer to image description for more details.</shortdescription>
           <description>
             <p>
@@ -53,7 +53,7 @@
         </image>
       </statement>
     </exercise>
-    <exercise workspace="1in">
+    <exercise workspace="0.5in">
       <statement><!-- #3 -->
         <p>
         State the formula for the difference quotient of a function <m>f</m> at <m>x = a</m>.
@@ -68,8 +68,8 @@
         </p>
       </statement>
     </exercise>
-    </page>
-    <page>
+    
+    
       <paragraphs>
         <title>Let Us Get Our Hands On</title>
       </paragraphs>
@@ -84,22 +84,22 @@
               </p>
               <p>
                 <ol>
-                  <li>
+                  <li workspace="1in">
                     <p>
                       <m>[95,100]</m>
                     </p>
                   </li>
-                  <li>
+                  <li workspace="1in">
                     <p>
                       <m>[97,100]</m>
                     </p>
                   </li>
-                  <li>
+                  <li workspace="1in">
                     <p>
                       <m>[99,100]</m>
                     </p>
                   </li>
-                  <li>
+                  <li workspace="1in">
                     <p>
                       <m>[100,101]</m>
                     </p>
@@ -107,7 +107,7 @@
                 </ol>
               </p>
             </li>
-            <li>
+            <li workspace="2in">
               <p>
                 Use part (a) to approximate the instantaneous rate of change of cost when <m>100</m> products are produced.
                 Interpret your results.
@@ -117,7 +117,7 @@
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="5in" number="2">
+    <exercise number="2">
       <statement><!-- #2 -->
         <p>
           Suppose we want to find the instantaneous rate of change of <m>f(x)=x^{2}+5x</m> at <m>x=3</m>:
@@ -135,25 +135,25 @@
               <p>
                 Follow the steps below to compute <m>m</m>.
                 <ol>
-                  <li>
+                  <li workspace="1in">
                     <p>
                       Calculate <m>f(3+h)</m> and combine like terms.
                     </p>
                   </li>
 
-                  <li>
+                  <li workspace="1in">
                     <p>
                       Calculate <m>f(3+h)-f(3)</m> and combine like terms.
                     </p>
                   </li>
 
-                  <li>
+                  <li workspace="1in">
                     <p>
                       Calculate the difference quotient <m>\frac{f(3+h)-f(3)}{h}</m> and simplify to get rid of <m>h</m> on the bottom.
                     </p>
                   </li>
 
-                  <li>
+                  <li workspace="1in">
                     <p>
                       Take the limit <m>h \to 0</m> of your simplified expression in iii.
                       Label the resulting value as <m>m</m>.
@@ -166,8 +166,8 @@
         </p>
       </statement>
     </exercise>
-  </page>
-  <page>
+  
+  
     <exercise workspace="1in" number="3">
       <statement><!-- #3 -->
         <p> In #2 we found that the instantaneous rate of change of <m>f</m> at <m>x = 3</m> is <m>m=11</m>.
@@ -175,7 +175,7 @@
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="1in" number="4">
+    <exercise workspace="6in" number="4">
       <statement><!-- #4 -->
         <p> Find the instantaneous rate of change of <m>\displaystyle f(x)=2\sqrt{x}</m> at <m>x=4</m>.
         <em>Hint: Follow the same steps as in #2.
@@ -185,16 +185,16 @@
         </p>
       </statement>
     </exercise> 
-  </page>
-  <page>
+  
+  
     <exercise workspace="1in" number="5">
       <statement><!-- #5 -->
         <p> Find the equation of the line tangent to <m>f(x) = 2\sqrt{x}</m> at <m>x=4</m>.
         </p>
       </statement>
     </exercise> 
-  </page>
-  <page>
+  
+  
     <p>
       Use the graph of <m>p(x)</m> below to answer questions #6-7.
     </p>
@@ -212,7 +212,7 @@
             </p>
           </description>
     </image>
-    <exercise workspace="1in" number="6">
+    <exercise number="6">
       <statement><!-- #6 -->
         <p> 
           Find the following limits.
@@ -256,7 +256,7 @@
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="1in" number="7">
+    <exercise workspace="1.5in" number="7">
       <statement><!-- #7 -->
         <p>
           Find all <m>x-</m>values where <m>p(x)</m> is discontinuous.
@@ -264,20 +264,20 @@
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="1in" number="8">
+    <exercise number="8">
       <statement><!-- #8 -->
         <p> 
          Estimate the following limits numerically by building a table with at least 3 <m>x</m>-values approaching the given <m>x</m>-value.
         If the limit does not exist, state so and and use limit notation to describe any infinite behavior.
         Round to four decimal places if necessary.
         <ol>
-          <li>
+          <li workspace="3in">
             <p>
               <m>\displaystyle\lim_{x \to \frac{3}{2}^+}\frac{4x^{2}-2x-6}{2x-3}</m>
             </p>
           </li>
 
-          <li>
+          <li workspace="3in">
             <p>
               <m>\displaystyle\lim_{x \to 1}\frac{x^{2}}{x-1}</m>  <em>Hint: Create two tables.</em>
             </p>
@@ -286,8 +286,8 @@
         </p>
       </statement>
     </exercise> 
-  </page>
-  <page>
+  
+  
     <paragraphs>
         <title>Now Grades Go Up</title>
       </paragraphs>
@@ -398,7 +398,7 @@
     </p>
   </statement>
  </exercise>
- <exercise workspace ="1in" number="8">
+ <exercise number="8">
   <statement><!-- #8 -->
     <p>
       Determine whether each statement is true or false.
@@ -412,7 +412,7 @@
     </p>
   </statement>
  </exercise>
-</page>
+
 </worksheet>
 
   </article>
