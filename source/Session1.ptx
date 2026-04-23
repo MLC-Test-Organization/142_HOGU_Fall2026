@@ -95,8 +95,8 @@
       <statement><!-- #2 -->
         <p>Complete the tables below to estimate  <m>\D\lim_{t \rightarrow 0} \frac{|t-5|}{t}</m> numerically. 
           If the limit does not exist, state so and use limit notation to describe any infinite behavior. Round your answers to four decimal places (if necessary).
-        <table><!--see chp 20 on Guide for how to create tables-->
-          <title>Left-hand limit</title>
+        <!--see chp 20 on Guide for how to create tables-->
+
           <tabular halign="center">
             <row header="yes" bottom="minor" >
               <cell>Variable <m>t</m></cell>
@@ -119,10 +119,7 @@
               <cell></cell>
             </row>
           </tabular>
-        </table>
 
-        <table>
-          <title>Right-hand limit</title>
           <tabular halign="center">
             <row header="yes" bottom="minor" >
               <cell>Variable <m>t</m></cell>
@@ -145,7 +142,7 @@
               <cell></cell>
             </row>
           </tabular>
-        </table>
+
         </p>
       </statement>
     </exercise>
