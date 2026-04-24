@@ -36,13 +36,9 @@
             Let <m>f</m> and <m>g</m> be two differentiable functions.
             Circle the correct Product Rule for derivatives.
             <md>
-            \text{Option 1:} \quad \frac{d}{dx}(f(x) \cdot g(x)) = \left(\frac{d}{dx}f(x)\right)\cdot\left(\frac{d}{dx}g(x)\right) 
-            </md>
-            <md>
-            \text{Option 2:}\quad \frac{d}{dx}(f(x) \cdot g(x)) = f(x)\cdot\left(\frac{d}{dx}g(x)\right)+g(x)\cdot \left(\frac{d}{dx}f(x)\right)   
-            </md>
-            <md>
-            \text{Option 3:}\quad \frac{d}{dx}(f(x) \cdot g(x)) = f(x)\cdot\left(\frac{d}{dx}g(x)\right)\cdot g(x)\cdot \left(\frac{d}{dx}f(x)\right)   
+              <mrow>\text{Option 1:}\amp\quad \frac{d}{dx}(f(x) \cdot g(x)) = \left(\frac{d}{dx}f(x)\right)\cdot\left(\frac{d}{dx}g(x)\right)</mrow>
+              <mrow>\text{Option 2:}\amp\quad \frac{d}{dx}(f(x) \cdot g(x)) = f(x)\cdot\left(\frac{d}{dx}g(x)\right)+g(x)\cdot \left(\frac{d}{dx}f(x)\right)</mrow>   
+              <mrow>\text{Option 3:}\amp\quad \frac{d}{dx}(f(x) \cdot g(x)) = f(x)\cdot\left(\frac{d}{dx}g(x)\right)\cdot g(x)\cdot \left(\frac{d}{dx}f(x)\right)</mrow>   
             </md>       
         </p>
       </statement>
@@ -53,13 +49,9 @@
             Let <m>f</m> and <m>g</m> be two differentiable functions.
             Circle the correct Quotient Rule for derivatives.
             <md>
-            \text{Option 1:} \quad \frac{d}{dx}\left(\frac{f(x)}{g(x)}\right) = \frac{\frac{d}{dx}(f(x))}{\frac{d}{dx}(g(x))}
-            </md>
-            <md>
-            \text{Option 2:}\quad \frac{d}{dx}\left(\frac{f(x)}{g(x)}\right) = \frac{g(x)\cdot\left(\frac{d}{dx}f(x)\right)-f(x)\cdot \left(\frac{d}{dx}g(x)\right)}{g(x)}
-            </md>
-            <md>
-            \text{Option 3:}\quad \frac{d}{dx}\left(\frac{f(x)}{g(x)}\right) = \frac{g(x)\cdot\left(\frac{d}{dx}f(x)\right)-f(x)\cdot \left(\frac{d}{dx}g(x)\right)}{(g(x))^2}    
+              <mrow>\text{Option 1:}\amp\quad \frac{d}{dx}\left(\frac{f(x)}{g(x)}\right) = \frac{\frac{d}{dx}(f(x))}{\frac{d}{dx}(g(x))}</mrow>
+              <mrow>\text{Option 2:}\amp\quad \frac{d}{dx}\left(\frac{f(x)}{g(x)}\right) = \frac{g(x)\cdot\left(\frac{d}{dx}f(x)\right)-f(x)\cdot \left(\frac{d}{dx}g(x)\right)}{g(x)}</mrow>
+              <mrow>\text{Option 3:}\amp\quad \frac{d}{dx}\left(\frac{f(x)}{g(x)}\right) = \frac{g(x)\cdot\left(\frac{d}{dx}f(x)\right)-f(x)\cdot \left(\frac{d}{dx}g(x)\right)}{(g(x))^2}</mrow>    
             </md>
         </p>
       </statement>
@@ -145,56 +137,54 @@
   
   
     <exercise number="6">
-      <statement><!-- #6 -->
-        <p> Find the derivatives of each function given below. Do not simplify your answers after  you have applied the appropriate derivative rules.
-          <ol marker="(a)">
-            <li workspace="1in">
+      <introduction><!-- #6 -->
+        <p> Find the derivatives of each function given below. Do not simplify your answers after  you have applied the appropriate derivative rules.</p>
+      </introduction>
+            <task workspace="1in">
               <p>
                 <m>\D f(x) = e^{4x}</m>
               </p>
-            </li>
-            <li workspace="1in">
+            </task>
+            <task workspace="1in">
               <p>
                 <m>\D f(x) = \sqrt{2x^{2}-e}</m>
               </p>
-            </li>
-            <li workspace="1in">
+            </task>
+            <task workspace="1in">
               <p>
                 <m>\D f(x) = \ln(x^{2})+x-3^{x}</m>
               </p>
-            </li>
-            <li workspace="1in">
+            </task>
+            <task workspace="1in">
               <p>
                 <m>\D f(x)=\sqrt{e^{x^2}+5x}</m>
               </p>
-            </li>
-            <li workspace="1in">
+            </task>
+            <task workspace="1in">
               <p>
                 <m>\D h(x)=\log_{3}\left((x^{2/3}+4x)^{8}\right)</m>
               </p>
-            </li>
-            <li workspace="1in">
+            </task>
+            <task workspace="1in">
               <p>
                 <m>\D f(x)=4\bigg(\frac{3}{x^{4}}+2^{x}\bigg)^{5}</m>
               </p>
-            </li>
-            <li workspace="1in">
+            </task>
+            <task workspace="1in">
               <p>
                 <m>\D g(x)=\frac{3x}{\sqrt{e^{x^2}+5x}}</m>
               </p>
-            </li>
-            <li workspace="1in">
+            </task>
+            <task workspace="1in">
               <p>
                 <m>\D h(x)=e^{4x}\ln\bigg(x^{2}+\sqrt{x}\bigg)</m>
               </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
+            </task>
     </exercise> 
     <exercise number="7">
-      <statement><!-- #7 -->
-        <p> Let <m>f(x)</m> be a differentiable function. The values of <m>f(x)</m> and <m>f'(x)</m> are given in the table below and the graph of <m>g(x)</m> is shown.
+      <introduction><!-- #7 -->
+        <p> Let <m>f(x)</m> be a differentiable function. The values of <m>f(x)</m> and <m>f'(x)</m> are given in the table below and the graph of <m>g(x)</m> is shown.</p>
+
             <sidebyside widths ="40% 50%" valign ="middle">
             <p>
               <image source="MATH142_HOGU_Session5_Fig1.png" width="50%">
@@ -237,26 +227,24 @@
             </table>
             </p>
         </sidebyside>
-        <ol marker="(a)">
-          <li workspace="1.5in">
+        </introduction>
+          <task workspace="1.5in">
             <p>
               Let <m>h(x)=g(f(x)).</m> Find <m>\D h'(3)</m>.
             </p>
-          </li>
-          <li workspace="1.5in">
+          </task>
+          <task workspace="1.5in">
             <p>
               Let <m>k(x)=f(g(x))</m>. Find <m>\D k'(1)</m>.
             </p>
-          </li>
-          <li workspace="1.5in">
+          </task>
+          <task workspace="1.5in">
             <p>
               Let <m>\D m(x)=\frac{h(x)}{x^{2}}</m>. Find <m>\D m'(3)</m>. (<em>Hint: Use part (a) to find <m>h(3)</m> and <m>h'(3)</m>.</em>)
             </p>
-          </li>
-        </ol>
-        </p>
-      </statement>
-    </exercise> 
+          </task>
+    </exercise>  
+
     <exercise number="8">
       <statement><!-- #8 -->
         <p> 

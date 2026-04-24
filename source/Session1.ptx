@@ -37,6 +37,7 @@
         </p>
       </statement>
     </exercise>
+
     <exercise workspace="0.75in">
       <statement><!-- #2 -->
         <p>
@@ -44,6 +45,7 @@
         </p>
       </statement>
     </exercise>
+
     <exercise workspace="0.75in">
       <statement><!-- #3 -->
         <p>
@@ -52,6 +54,7 @@
         </p>
       </statement>
     </exercise>
+
     <exercise workspace="0.75in">
       <statement><!-- #4 -->
         <p>
@@ -60,6 +63,7 @@
         </p>
       </statement>
     </exercise>
+
     <exercise workspace="0.75in">
       <statement><!-- #5 -->
         <p>
@@ -67,6 +71,7 @@
         </p>
       </statement>
     </exercise>
+
     </paragraphs>
     
     <paragraphs>
@@ -91,12 +96,15 @@
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="5 in" number="2">
+
+    <exercise workspace="1in" number="2">
       <statement><!-- #2 -->
         <p>Complete the tables below to estimate  <m>\D\lim_{t \rightarrow 0} \frac{|t-5|}{t}</m> numerically. 
           If the limit does not exist, state so and use limit notation to describe any infinite behavior. Round your answers to four decimal places (if necessary).
         <!--see chp 20 on Guide for how to create tables-->
-
+          <p>
+            Left-Hand Limit:
+          </p>
           <tabular halign="center">
             <row header="yes" bottom="minor" >
               <cell>Variable <m>t</m></cell>
@@ -119,7 +127,10 @@
               <cell></cell>
             </row>
           </tabular>
-
+          
+          <p>
+            Right-Hand Limit:
+          </p>
           <tabular halign="center">
             <row header="yes" bottom="minor" >
               <cell>Variable <m>t</m></cell>
@@ -148,7 +159,7 @@
     </exercise>
   
   
-    <exercise workspace="1 in" number="3">
+    <exercise workspace="2in" number="3">
       <statement><!-- #3 -->
         <p> Set up a table to estimate <m>\D \lim_{x \rightarrow -2} \frac{x^2-x-6}{(x+2)(x+7)}</m> numerically. 
           When creating your table, show at least three <m>x</m>-values approaching <m>-2</m> from each side and their corresponding function values in the table. 
@@ -157,7 +168,8 @@
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="1 in" number="4">
+
+    <exercise workspace="2in" number="4">
       <statement><!-- #4 -->
         <p> Given the graph of <m>f(x)</m> below and <m>g(x)=\frac{10x-30}{x^2-x-6}</m>, 
           find <m>\D\lim_{x \rightarrow 3} \left( \frac{f(x)+5x}{2}+\sqrt{g(x)+14} \right)</m>. 
@@ -181,68 +193,65 @@
     </exercise> 
   
   
-    <exercise number="5">
-      <statement><!-- #5 -->
-        <p>
-          <m>\D f(x)= \begin{cases}5^{4x-3}&#x26;x \leq -5\\ \\  \D \frac{x^2-x}{x^2+2x}&#x26;x>-5 \\\end{cases}</m> find the following limits.
-          If the limit does not exist, state so and use limit notation to describe any infinite behavior.
-          Round your answers to four decimal places (if necessary).
-          <ol marker="(a)"><!-- see 4.11 for making lists and different options for markers-->
-            <li workspace="2.1in">
+    <exercise number="5"><!-- #5 -->
+        <introduction>
+          <p>
+            Given <m>\D f(x)= \begin{cases}5^{4x-3}&#x26;x \leq -5\\ \\  \D \frac{x^2-x}{x^2+2x}&#x26;x>-5 \\\end{cases}</m> find the following limits.
+            If the limit does not exist, state so and use limit notation to describe any infinite behavior.
+            Round your answers to four decimal places (if necessary).
+          </p>
+        </introduction>
+          <!-- see 4.11 for making lists and different options for markers-->
+            <task workspace="2in">
               <p>
                 <m>\D \lim_{x \rightarrow 0}f(x)</m>
               </p>
-            </li>
-            <li workspace="2.1in">
+            </task>
+            <task workspace="2in">
               <p>
                 <m>\D \lim_{x \rightarrow -2^+}f(x)</m>
               </p>
-            </li>
-            <li workspace="2.1in">
+            </task>
+            <task workspace="2in">
               <p>
                 <m>\D \lim_{x \rightarrow -5}f(x)</m>
               </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
+            </task>
     </exercise> 
   
-  
-    <exercise number="6">
-      <statement><!-- #6 -->
+    <exercise number="6"><!-- #6 -->
+      <introduction>
         <p> Find the following limits algebraically. If the limit does not exist, state so and use limit notation to describe any infinite behavior. 
           Round your answers to four decimal places (if necessary). 
-          <ol marker="(a)">
-            <li workspace="1.6in">
+        </p>
+      </introduction>
+            <task workspace="1.3in">
               <p>
                 <m>\D \lim_{x \rightarrow e}\left( x^{3}+\ln(2x-e) \right)</m>
               </p>
-            </li>
-            <li workspace="1.6in">
+            </task>
+            <task workspace="1.3in">
               <p>
                 <m>\D \lim_{x \rightarrow 9}\frac{\sqrt{x}-3}{x-9}</m>
               </p>
-            </li>
-            <li workspace="1.6in">
+            </task>
+            <task workspace="1.3in">
               <p>
                 <m>\D \lim_{x \rightarrow 3}\frac{x^{2}+3x}{x^{2}+6x+9}</m>
               </p>
-            </li>
-            <li workspace="1.6in">
+            </task>
+            <task workspace="1.3in">
               <p>
                 <m>\D \lim_{x \rightarrow -3}\frac{x^{2}+3x}{x^{2}+6x+9}</m>
               </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
+            </task>
     </exercise> 
+
     <exercise number="7">
-      <statement><!-- #7 -->
-        <p> For each graph below, find the indicated limit.
-          <ol marker="I."> 
-          <li>
+      <introduction><!-- #7 -->
+        <p> For each graph below, find the indicated limit.</p>
+      </introduction>
+          <task>
             <sidebyside widths ="75% 25%" valign ="middle"><!-- see 4.24 for more on side-by-side -->
             <p>
             <image source="M142_HOGU_session1_fig3.png" width="70%">
@@ -257,7 +266,7 @@
             </image> 
           </p>
           <p>
-            <ol marker="(a)">
+            <ol marker="(i)">
               <li>
                 <p>
                   <m>\D \lim_{x \rightarrow \infty}g(x)</m>
@@ -286,8 +295,8 @@
             </ol>
           </p>
         </sidebyside>
-          </li>
-          <li>
+      </task>
+          <task>
             <sidebyside widths ="75% 25%" valign ="middle">
             <p>
               <image source="M142_HOGU_session1_fig4.png" width="70%">
@@ -303,12 +312,12 @@
             </image> 
             </p>
             <p>
-            <ol marker="(a)">
-              <li>
+            <ol marker="(i)">
+              <task>
                 <p>
                   <m>\D \lim_{x \rightarrow \infty}g(x)</m>
                 </p>
-              </li>
+              </task>
               <li>
                 <p>
                   <m>\D \lim_{x \rightarrow -\infty}g(x)</m>
@@ -332,16 +341,14 @@
             </ol>
           </p>
         </sidebyside>
-          </li>
-        </ol>
-        </p>
-      </statement>
+      </task>
     </exercise> 
-    <exercise number="8">
-      <statement><!-- #8 -->
+
+    <exercise number="8"><!-- #8 -->
+      <introduction>
         <p> Jenn is trying to find <m>\D\lim_{x \rightarrow \infty} f(x)</m> given  <m>f(x) = \frac{12+4x^7+x}{-19x^6+2x^2-5x^7}</m>. </p>
-        <ol>
-          <li workspace="2.1in">
+      </introduction>
+          <task workspace="1.5in">
             <p>
               Jenn starts by evaluating the limit <m>x \to \infty</m> of the numerator and of the denominator separately,
               but gets the indeterminant form <m>\D\frac{\infty}{-\infty}</m> for the overall limit.
@@ -350,75 +357,75 @@
               What should she divide each term by? What is the result after division?  
               <!--See 4.1 for acceptable markups in paragraphs. Note that there is (intentionally) no option to bold text.-->
             </p>
-          </li>
-          <li workspace="2.7in">
+          </task>
+          <task workspace="2in">
             <p>
               The next step is to take the limit <m>x \to \infty</m> of <em>each</em> term in <m>f(x)</m> as rewritten in part (a).
               For example, the term <m>\D\frac{12}{x^{7}}</m> goes to <m>0</m> as <m>x \to \infty</m>.
               We can indicate this by writing <m>\D\cancelto{{0}}{\frac{12}{x^{7}}}</m>.
             </p>
-          </li>
-          <li workspace="0.8in">
+          </task>
+          <task workspace="0.5in">
             <p>
               Use part (b) to find the exact value of <m>\D \lim_{x \rightarrow \infty}f(x)</m>.
             </p>
-          </li>
-        </ol>
-      </statement>
+          </task>
     </exercise> 
   
   </paragraphs>
   
-    <paragraphs>
-        <title>Now Grades Go Up</title>
-      </paragraphs>
- <exercise number="1">
-  <statement><!-- #1 -->
-    <p>
-      The mathematical notation <m>\D\lim \limits_{x \rightarrow 5} f(x)</m> means <m>\underline{ \qquad\qquad}</m>
-        <ol marker="(a)">
-          <li> <p>we need to find the value of the function  at <m>x=5</m>.</p> </li>
-          <li> <p> we need to investigate the <m>y</m>-values of <m>f(x)</m> as <m>x</m> gets very near <m>x=5</m> from both the left and right sides of <m>x=5</m>, 
-            but not necessarily at <m>x=5</m>.</p> </li>
-          <li> <p>we need to find the horizontal asymptotes. </p> </li>
-          <li> <p> we need to find the instantaneous rate of change.</p> </li>
-          <li> <p> we need to investigate the <m>y</m>-values as we approach <m>x=5</m> only on the right side.</p> </li>
-        </ol>
-    </p>
-  </statement>
- </exercise>
- <exercise number="2">
-  <statement><!-- #2 -->
-    <p>
-      Find <m>\D\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}</m>. If the limit does not exist, but has infinite behavior, use limit notation to 
-          describe the infinite behavior of the function as <m>x \longrightarrow 2^-</m>.
-        <ol marker="(a)">
-          <li> <p> <m>\D {\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}=3</m></p> </li>
-          <li> <p> <m>\D{\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}=-\infty</m></p> </li>
-          <li> <p> <m>\D{\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}</m> DNE, 
-            but has infinite behavior that can be described as <m>\D{\lim_{x \rightarrow 2^-} f(x) \rightarrow -\infty}</m>. </p> </li>
-          <li> <p><m>\D{\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}</m> DNE, 
-            but has infinite behavior that can be described as <m>\D{\lim_{x \rightarrow 2^-} f(x) \rightarrow \infty}</m>. </p> </li>
-          <li> <p> <m>\D {\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}=0</m> </p> </li>
-        </ol>
-    </p>
-  </statement>
- </exercise>
- <exercise workspace ="1in" number="3">
-  <statement><!-- #3 -->
-    <p>
-      Find <m>\D\lim \limits_{x \rightarrow 7} \frac{x^2-8x+7}{x-7}</m>.
-        <ol marker="(a)">
-          <li> <p> <m>0</m> </p> </li>
-          <li> <p> DNE </p> </li>
-          <li> <p> <m>6</m>  </p> </li>
-          <li> <p> <m>8</m> </p> </li>
-          <li> <p> None of these. </p> </li>
-        </ol>
-    </p>
-  </statement>
- </exercise>
+  <paragraphs>
+    <title>Now Grades Go Up</title>  
+    <exercise number="1">
+      <statement><!-- #1 -->
+        <p>
+          The mathematical notation <m>\D\lim \limits_{x \rightarrow 5} f(x)</m> means <m>\underline{ \qquad\qquad}</m>
+          <!-- see 4.11 for making lists and different options for markers-->
+             <ol marker="(a)">
+                <li> <p>we need to find the value of the function  at <m>x=5</m>.</p> </li>
+                <li> <p> we need to investigate the <m>y</m>-values of <m>f(x)</m> as <m>x</m> gets very near <m>x=5</m> from both the left and right sides of <m>x=5</m>, 
+                  but not necessarily at <m>x=5</m>.</p> </li>
+                <li> <p>we need to find the horizontal asymptotes. </p> </li>
+                <li> <p> we need to find the instantaneous rate of change.</p> </li>
+                <li> <p> we need to investigate the <m>y</m>-values as we approach <m>x=5</m> only on the right side.</p> </li>
+              </ol>
+          </p>
+      </statement>
+    </exercise>
 
+    <exercise number="2">
+      <statement><!-- #2 -->
+        <p>
+           Find <m>\D\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}</m>. If the limit does not exist, but has infinite behavior, use limit notation to 
+                describe the infinite behavior of the function as <m>x \longrightarrow 2^-</m>.
+              <ol marker="(a)">
+                <li> <p> <m>\D {\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}=3</m></p> </li>
+                <li> <p> <m>\D{\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}=-\infty</m></p> </li>
+                <li> <p> <m>\D{\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}</m> DNE, 
+                  but has infinite behavior that can be described as <m>\D{\lim_{x \rightarrow 2^-} f(x) \rightarrow -\infty}</m>. </p> </li>
+                <li> <p><m>\D{\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}</m> DNE, 
+                  but has infinite behavior that can be described as <m>\D{\lim_{x \rightarrow 2^-} f(x) \rightarrow \infty}</m>. </p> </li>
+                <li> <p> <m>\D {\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}=0</m> </p> </li>
+              </ol>
+          </p>
+      </statement>
+    </exercise>
+
+    <exercise number="3">
+      <statement><!-- #3 -->
+        <p>
+          Find <m>\D\lim \limits_{x \rightarrow 7} \frac{x^2-8x+7}{x-7}</m>.
+              <ol marker="(a)">
+                <li> <p> <m>0</m> </p> </li>
+                <li> <p> DNE </p> </li>
+                <li> <p> <m>6</m>  </p> </li>
+                <li> <p> <m>8</m> </p> </li>
+                <li> <p> None of these. </p> </li>
+              </ol>
+          </p>
+      </statement>
+    </exercise>
+  </paragraphs>
 </worksheet>
 
   </article>

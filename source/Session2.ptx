@@ -102,70 +102,67 @@
         </p>
       </statement>
     </exercise>
-    <exercise workspace="0.5in">
-      <statement><!-- #4 -->
+    <exercise><!-- #4 -->
+      <introduction>
         <p>
-            Examine the limits above, group them together by finding patterns or common characteristics, then fill in the blanks below.
-            Some are already filled in for you.
-            <ol>
-            <li>
+          Examine the limits above, group them together by finding patterns or common characteristics, then fill in the blanks below.
+          Some are already filled in for you.
+        </p>
+      </introduction>
+            <task>
                 <p>
                 Given <m>\D f(x)=\frac{c}{x^{n}}</m> where <m>c</m> is any real number and <m>n>0</m> then 
                 <m>\displaystyle \lim_{x\rightarrow \infty}f(x)\,\stackrel{\textstyle =0}{\rule{0.75in}{0.05mm}}</m> 
                 and <m>\D{\lim_{x\rightarrow -\infty} f(x) } \rule{1in}{0.05mm}</m>.
                 </p>
-            </li>
+              </task>
 
-            <li>
+            <task>
                 <p>
                 Given <m>\D g(x)= e^{nx}</m> where and <m>n>0</m> then <m>\D{\lim_{x\rightarrow \infty} g(x)}\,\stackrel{\textstyle \to \infty}{\rule{0.75in}{0.05mm}}</m> 
                 and <m>\D{\lim_{x\rightarrow -\infty} g(x)} \rule{1in}{0.05mm}</m>.
                 </p>
-            </li>
+              </task>
 
-            <li>
+            <task>
                 <p>
                 Given <m>\D h(x)= e^{-nx}</m> where and <m>n>0</m> then <m>\D{\lim_{x\rightarrow \infty} h(x)}\,\stackrel{\textstyle =0}{\rule{0.75in}{0.05mm}}</m> 
                 and <m>\D{\lim_{x\rightarrow -\infty} h(x)} \rule{1in}{0.05mm}</m>.
                 </p>
-            </li>
-            </ol>
-        </p>
-      </statement>
+              </task>
     </exercise> 
     </paragraphs> 
 
     <paragraphs>
         <title>Let Us Get Our Hands On</title>
-    <exercise number="1">
-      <statement><!-- #1 -->
+    <exercise number="1"><!-- #1 -->
+      <introduction>
         <p>
-        Find any (a) horizontal asymptotes, (b) the coordinates of any holes, and (c) vertical asymptotes of the function.
-        If there are no horizontal asymptotes, describe the end behavior using limit notation.
-        <ol>
-        <li workspace="2.2in"> <m>\D h(x)=\frac{(x-4)(x+3)}{(x+4)(x-4)(8x+3)}=\frac{x^{2}-x-12}{8x^{3}+3x^{2}-128x-48}</m> </li>
-        <li workspace="2.2in"> <m>\D f(x)=\frac{(3x+5)(x+2)}{4(x+2)^{2}}=\frac{3x^{2}+11x+10}{4x^{2}+16x+16}</m> </li> 
-        <li workspace="2.2in"> <m>\D f(x)=\frac{x(x-5)(x+5)}{x^{2}+8x+15}=\frac{x^{3}-25x}{x^{2}+8x+15}</m> </li>
-        </ol>
+          Find any (a) horizontal asymptotes, (b) the coordinates of any holes, and (c) vertical asymptotes of the function.
+          If there are no horizontal asymptotes, describe the end behavior using limit notation.
         </p>
-      </statement>
+      </introduction>
+        <task workspace="1.7in"> <m>\D h(x)=\frac{(x-4)(x+3)}{(x+4)(x-4)(8x+3)}=\frac{x^{2}-x-12}{8x^{3}+3x^{2}-128x-48}</m> </task>
+        <task workspace="1.7in"> <m>\D f(x)=\frac{(3x+5)(x+2)}{4(x+2)^{2}}=\frac{3x^{2}+11x+10}{4x^{2}+16x+16}</m> </task> 
+        <task workspace="1.7in"> <m>\D f(x)=\frac{x(x-5)(x+5)}{x^{2}+8x+15}=\frac{x^{3}-25x}{x^{2}+8x+15}</m> </task>
     </exercise> 
     
     
     <exercise number="2">
-      <statement><!-- #2 -->
+      <introduction><!-- #2 -->
         <p>
         Given <m>\D f(x)=\frac{4-e^{-2x}}{3e^{-2x}+1}</m>, follow the steps below to find the horizontal asymptotes of <m>f</m>, if any exist.
-        <ol>
-        <li workspace="1.5in">
+        </p>
+      </introduction>
+        <task workspace="1.5in">
             <p>
             Set up but do not yet solve the two limits that are needed to determine the horizontal asymptotes.
             </p>
-        </li>
-        <li>
+        </task>
+        <task>
             <p>
             Fill in the blanks with either <em>positive</em> or <em>negative</em>.
-            <ol>
+            <ol marker="i.">
                 <li>
                 <p>
                     <em>If <m>x \to \infty</m>, we divide all terms by the <m>e^{nx}</m> in the denominator that has the most <m>\rule{0.75in}{0.05mm} </m> power.</em>
@@ -178,17 +175,14 @@
                 </li>
             </ol>
             </p>
-        </li>
-        <li workspace="3.5in">
+        </task>
+        <task workspace="3.5in">
             <p>
             Apply the techniques from part(b) to compute the limits in part(a) and state the horizontal asymptotes of <m>f</m>.
             If there are none, describe the end behavior using limit notation.
             It may help to refer to problem 4 from the “Getting Warmed Up and In the Right Mindset” section.
             </p>
-        </li>
-        </ol>
-        </p>
-      </statement>
+          </task>
     </exercise>
     
     
@@ -218,8 +212,8 @@
       </statement>
     </exercise> 
     
-    <exercise  number="5">
-      <statement><!-- #5 -->
+    <exercise  number="5"><!-- #5 -->
+      <introduction>
         <p>
           Use the graph of <m>f(x)</m> to determine if <m>f(x)</m> is continuous at <m>x=-2</m>.
           <image source="MATH142_HOGU_Session2_Fig1.png" width="50%">
@@ -232,35 +226,33 @@
                 The graph has a closed circle at <m>(-2,1)</m> and an open circle at <m>(-2,-4)</m>.</p>
             </description>
           </image>
-          <ol>
-            <li workspace="0.5in">
+        </p>
+      </introduction>
+            <task workspace="0.5in">
               <p>
                 Is <m>\D f(-2)</m> defined? If so, find the value.
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Does <m>\D{\lim_{x\rightarrow -2} f(x)}</m> exist? If so, find the value.
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Does <m>\displaystyle{\lim_{x \rightarrow -2} f(x) =f(-2)}</m>?
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Is <m>f(x)</m> is continuous at <m>x=-2</m>? If not, at what condition (I, II, or III) does it fail first?              
               </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
+            </task>
     </exercise> 
     
     
     <exercise number="6">
-      <statement><!-- #6 -->
+      <introduction><!-- #6 -->
         <p> 
           Use the graph of <m>f(x)</m> to determine if <m>f(x)</m> is continuous at <m>x=-2</m>.
           <image source="MATH142_HOGU_Session2_Fig2.png" width="50%">
@@ -272,33 +264,32 @@
                 The graph has an open circle at <m>(-2,1)</m>.</p>
             </description>
           </image>
-          <ol>
-            <li workspace="0.5in">
+        </p>
+      </introduction>
+            <task workspace="0.5in">
               <p>
                 Is <m>\D f(-2)</m> defined? If so, find the value.
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Does <m>\D{\lim_{x\rightarrow -2} f(x)}</m> exist? If so, find the value.
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Does <m>\displaystyle{\lim_{x \rightarrow -2} f(x) =f(-2)}</m>?
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Is <m>f(x)</m> is continuous at <m>x=-2</m>? If not, at what condition (I, II, or III) does it fail first? 
               </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
+            </task>
     </exercise> 
+
     <exercise number="7">
-      <statement><!-- #7 -->
+      <introduction><!-- #7 -->
         <p> 
           Use the graph of <m>h(x)</m> to determine if <m>h(x)</m> is continuous at <m>x=-2</m>.
           <image source="MATH142_HOGU_Session2_Fig3.png" width="50%">
@@ -310,35 +301,33 @@
                 The graph has an open circle at <m>(-2,1)</m> and a closed circle at <m>(-2,6)</m>.</p>
             </description>
           </image>
-          <ol>
-            <li workspace="0.5in">
+        </p>
+      </introduction>
+            <task workspace="0.5in">
               <p>
                 Is <m>\D h(-2)</m> defined? If so, find the value.
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Does <m>\D{\lim_{x\rightarrow -2} h(x)}</m> exist? If so, find the value.
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Does <m>\displaystyle{\lim_{x \rightarrow -2} h(x) =h(-2)}</m>?
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Is <m>h(x)</m> is continuous at <m>x=-2</m>? If not, at what condition (I, II, or III) does it fail first? 
               </p>
-            </li>
-          </ol>  
-        </p>
-      </statement>
+            </task>
     </exercise> 
     
     
     <exercise number="8">
-      <statement><!-- #8 -->
+      <introduction><!-- #8 -->
         <p> 
           Use the graph of <m>p(x)</m> to determine if <m>p(x)</m> is continuous at <m>x=3</m>.
           <image source="MATH142_HOGU_Session2_Fig4.png" width="50%">
@@ -350,33 +339,32 @@
               </p>
             </description>
           </image>
-          <ol>
-            <li workspace="0.5in">
+        </p>
+      </introduction>
+            <task workspace="0.5in">
               <p>
                 Is <m>\D p(3)</m> defined? If so, find the value.
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Does <m>\D{\lim_{x\rightarrow 3} p(x)}</m> exist? If so, find the value.
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Does <m>\displaystyle{\lim_{x \rightarrow 3} p(x) =p(3)}</m>?
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Is <m>p(x)</m> is continuous at <m>x=3</m>? If not, at what condition (I, II, or III) does it fail first? 
               </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
+            </task>
     </exercise> 
+
     <exercise number="9">
-      <statement><!-- #9 -->
+      <introduction><!-- #9 -->
         <p> 
           Use the graph of <m>t(x)</m> to determine if <m>t(x)</m> is continuous at <m>x=-4</m>.
           <image source="MATH142_HOGU_Session2_Fig5.png" width="50%">
@@ -391,30 +379,28 @@
               </p>
             </description>
           </image>
-          <ol>
-            <li workspace="0.5in">
+        </p>
+      </introduction>
+            <task workspace="0.5in">
               <p>
                 Is <m>\D t(-4)</m> defined? If so, find the value.
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Does <m>\D{\lim_{x\rightarrow -4} t(x)}</m> exist? If so, find the value.
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Does <m>\displaystyle{\lim_{x \rightarrow -4} t(x) =t(-4)}</m>?
               </p>
-            </li>
-            <li workspace="0.5in">
+            </task>
+            <task workspace="0.5in">
               <p>
                 Is <m>t(x)</m> is continuous at <m>x=-4</m>? If not, at what condition (I, II, or III) does it fail first? 
               </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
+            </task>
     </exercise> 
   
   
@@ -445,7 +431,7 @@
                 </p>
               </task>
 
-              <task workspace="1in">
+              <task workspace="3in">
                 <p>
                   <m>\D p(x)=5x^{4}+10x^{3}-15x^{2}</m>
                 </p>

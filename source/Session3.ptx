@@ -26,7 +26,6 @@
     
       <paragraphs>
         <title>Getting Warmed Up and in the Right Mindset</title>
-      </paragraphs>
     <exercise workspace="0.4in">
       <statement><!-- #1 -->
         <p>
@@ -68,103 +67,96 @@
         </p>
       </statement>
     </exercise>
-    
+   </paragraphs> 
     
       <paragraphs>
         <title>Let Us Get Our Hands On</title>
-      </paragraphs>
     <exercise number="1">
-      <statement><!-- #1 -->
+      <introduction><!-- #1 -->
         <p>
           The cost of a company to produce <m>x</m> products is given by <m>C(x) = 0.04x^{2}+130</m> dollars.
-          <ol>
-            <li>
-              <p>
-                Calculate the average rate of change of cost on each of the following intervals.
-              </p>
-              <p>
-                <ol>
-                  <li workspace="1in">
+        </p>
+      </introduction>
+            <task>
+              <introduction>
+                <p>
+                  Calculate the average rate of change of cost on each of the following intervals.
+                </p>
+              </introduction>
+                  <task workspace="1in">
                     <p>
                       <m>[95,100]</m>
                     </p>
-                  </li>
-                  <li workspace="1in">
+                  </task>
+                  <task workspace="1in">
                     <p>
                       <m>[97,100]</m>
                     </p>
-                  </li>
-                  <li workspace="1in">
+                  </task>
+                  <task workspace="1in">
                     <p>
                       <m>[99,100]</m>
                     </p>
-                  </li>
-                  <li workspace="1in">
+                  </task>
+                  <task workspace="1in">
                     <p>
                       <m>[100,101]</m>
                     </p>
-                  </li>
-                </ol>
-              </p>
-            </li>
-            <li workspace="2in">
+                  </task>
+            </task>
+            <task workspace="2in">
               <p>
                 Use part (a) to approximate the instantaneous rate of change of cost when <m>100</m> products are produced.
                 Interpret your results.
               </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
+            </task>
     </exercise> 
     <exercise number="2">
-      <statement><!-- #2 -->
+      <introduction><!-- #2 -->
         <p>
           Suppose we want to find the instantaneous rate of change of <m>f(x)=x^{2}+5x</m> at <m>x=3</m>:
-          <ol>
-            <li>
+        </p>
+      </introduction>
+            <task>
               <p>
                 Circle the correct formula for calculating the instantaneous rate of change of <m>f</m> at <m>x = 3</m>:
                 <md>
                   m = \lim_{h \to 3}\frac{f(3+h)-f(3)}{h}\quad \quad \text{OR}\quad \quad m = \lim_{h \to 0}\frac{f(3+h)-f(3)}{h}
                 </md>
               </p>
-            </li>
+            </task>
 
-            <li>
-              <p>
-                Follow the steps below to compute <m>m</m>.
-                <ol>
-                  <li workspace="1in">
+            <task>
+              <introduction>
+                <p>
+                  Follow the steps below to compute <m>m</m>.
+                </p>
+              </introduction>
+                  <task workspace="1in">
                     <p>
                       Calculate <m>f(3+h)</m> and combine like terms.
                     </p>
-                  </li>
+                  </task>
 
-                  <li workspace="1in">
+                  <task workspace="1in">
                     <p>
                       Calculate <m>f(3+h)-f(3)</m> and combine like terms.
                     </p>
-                  </li>
+                  </task>
 
-                  <li workspace="1in">
+                  <task workspace="1in">
                     <p>
                       Calculate the difference quotient <m>\frac{f(3+h)-f(3)}{h}</m> and simplify to get rid of <m>h</m> on the bottom.
                     </p>
-                  </li>
+                  </task>
 
-                  <li workspace="1in">
+                  <task workspace="1in">
                     <p>
                       Take the limit <m>h \to 0</m> of your simplified expression in iii.
                       Label the resulting value as <m>m</m>.
                     </p>
-                  </li>
-                </ol>
-              </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
+                  </task>
+            </task>
     </exercise>
   
   
@@ -213,49 +205,48 @@
           </description>
     </image>
     <exercise number="6">
-      <statement><!-- #6 -->
+      <introduction><!-- #6 -->
         <p> 
           Find the following limits.
-          <ol>
-            <li>
+        </p>
+        </introduction>
+            <task>
               <p>
                 <m>\displaystyle{\lim_{x\rightarrow -4} p(x)}</m>
               </p>
-            </li>
+            </task>
 
-            <li>
+            <task>
               <p>
                 <m>\displaystyle{\lim_{x\rightarrow 2} p(x)}</m>
               </p>
-            </li>
+            </task>
 
-            <li>
+            <task>
               <p>
                 <m>\displaystyle{\lim_{x\rightarrow 10^-} p(x)}</m>
               </p>
-            </li>
+            </task>
 
-            <li>
+            <task>
               <p>
                 <m>\displaystyle{\lim_{x\rightarrow 8^+} p(x)}</m>
               </p>
-            </li>
+            </task>
 
-            <li>
+            <task>
               <p>
                 <m>\displaystyle{\lim_{x\rightarrow \infty} p(x)}</m>
               </p>
-            </li>
+            </task>
 
-            <li>
+            <task>
               <p>
                 <m>\displaystyle{\lim_{x\rightarrow -\infty} p(x)}</m>
               </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
+            </task>
     </exercise> 
+
     <exercise workspace="1.5in" number="7">
       <statement><!-- #7 -->
         <p>
@@ -265,32 +256,30 @@
       </statement>
     </exercise> 
     <exercise number="8">
-      <statement><!-- #8 -->
+      <introduction><!-- #8 -->
         <p> 
          Estimate the following limits numerically by building a table with at least 3 <m>x</m>-values approaching the given <m>x</m>-value.
         If the limit does not exist, state so and and use limit notation to describe any infinite behavior.
         Round to four decimal places if necessary.
-        <ol>
-          <li workspace="3in">
+        </p>
+      </introduction>
+          <task workspace="3in">
             <p>
               <m>\displaystyle\lim_{x \to \frac{3}{2}^+}\frac{4x^{2}-2x-6}{2x-3}</m>
             </p>
-          </li>
+          </task>
 
-          <li workspace="3in">
+          <task workspace="3in">
             <p>
               <m>\displaystyle\lim_{x \to 1}\frac{x^{2}}{x-1}</m>  <em>Hint: Create two tables.</em>
             </p>
-          </li>
-        </ol>
-        </p>
-      </statement>
+          </task>
     </exercise> 
-  
+
+  </paragraphs>
   
     <paragraphs>
         <title>Now Grades Go Up</title>
-      </paragraphs>
  <exercise workspace ="1in" number="1">
   <statement><!-- #1 -->
     <p>
@@ -399,19 +388,18 @@
   </statement>
  </exercise>
  <exercise number="8">
-  <statement><!-- #8 -->
+  <introduction><!-- #8 -->
     <p>
       Determine whether each statement is true or false.
-        <ol marker="(a)">
-          <li> <p> True/False: If <m>g(x)</m> is a rational function with <m>\displaystyle\lim_{x \to \infty}g(x) = -\frac{1}{2}</m>, 
-            then it must be that <m>\displaystyle\lim_{x \to -\infty}g(x) = -\frac{1}{2}</m>. </p> </li>
-          <li> <p> True/False: If <m>h(x)</m> is a rational function with <m>\displaystyle\lim_{x \to \infty}h(x) \to -\infty</m>, 
-            then it must also be that <m>\displaystyle\lim_{x \to -\infty}h(x) \to -\infty</m>.</p> </li>
-          <li> <p> True/False: If <m>\displaystyle \lim_{x \to 4}f(x) = -7</m>, then it must also be that <m>f(4) = -7</m>. </p> </li>
-        </ol>
     </p>
-  </statement>
+  </introduction>
+          <task> <p> True/False: If <m>g(x)</m> is a rational function with <m>\displaystyle\lim_{x \to \infty}g(x) = -\frac{1}{2}</m>, 
+            then it must be that <m>\displaystyle\lim_{x \to -\infty}g(x) = -\frac{1}{2}</m>. </p> </task>
+          <task> <p> True/False: If <m>h(x)</m> is a rational function with <m>\displaystyle\lim_{x \to \infty}h(x) \to -\infty</m>, 
+            then it must also be that <m>\displaystyle\lim_{x \to -\infty}h(x) \to -\infty</m>.</p> </task>
+          <task> <p> True/False: If <m>\displaystyle \lim_{x \to 4}f(x) = -7</m>, then it must also be that <m>f(4) = -7</m>. </p> </task>
  </exercise>
+ </paragraphs>
 
 </worksheet>
 
